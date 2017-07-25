@@ -5,16 +5,17 @@
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+<link rel="stylesheet" href="styles/fonts.css">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
-<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
-<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" />
 <link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
 <link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
 <link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
 <link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
 <link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
 
-<title>Epsilon Mobile Framework - Version 2.0</title>
+<title>Credo Trade</title>
 
 <link href="styles/style.css"     		rel="stylesheet" type="text/css">
 <link href="styles/framework.css" 		rel="stylesheet" type="text/css">
@@ -22,6 +23,7 @@
 <link href="styles/owl.theme.css" 		rel="stylesheet" type="text/css">
 <link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
 <link href="styles/colorbox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/custom_styles.css"     		rel="stylesheet" type="text/css">
 
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/jqueryui.js"></script>
@@ -58,69 +60,100 @@
                 <a href="#" class="shortcut-search"></a>
                 <a href="#" class="shortcut-close"></a>
             </div>
-            
+
             <div class="sidebar-search">
             	<div class="search-box">
                 	<input type="text" class="search-field" name="search" onfocus="if(this.value == 'Looking for something?') { this.value = ''; }" value="Looking for something?">
                 	<a href="#" class="search-close"></a>
                 </div>
             </div>
-            
+
             <div class="sidebar-logo">
-                <img src="images/misc/logo.png" height="52" alt="img">
+                <img src="media/logo/credo_white_m_142.svg" height="52" alt="img">
             </div>
-            
+
             <div class="sidebar-breadcrumb">NAVIGATION</div>
-                
-            <div class="navigation-item">
-                <a href="index.html" class="nav-item home-icon">Homepage<em class="unselected-item"></em></a>
-            </div>    
-            <div class="sidebar-decoration"></div>
-            <div class="navigation-item">
-                <a href="#" class="nav-item features-icon submenu-deploy">Features<em class="dropdown-item"></em></a>
-                <div class="nav-submenu">
-                    <a href="introduction.html">  Introduction <em class="unselected-item"></em></a>
-                    <a href="typography.html">	Typography	 <em class="unselected-item"></em></a>
-                    <a href="jquery.html">		jQuery		 <em class="unselected-item"></em></a>
-                </div>
-            </div>    
-            <div class="sidebar-decoration"></div>
-            <div class="navigation-item">
-                <a href="#" class="nav-item gallery-icon submenu-deploy">Gallery<em class="dropdown-item"></em></a>
-                <div class="nav-submenu">
-                    <a href="tile-gallery.html">	 Tile Gallery 			   <em class="unselected-item"></em></a>
-                    <a href="tile-folio.html">	   Tile Portfolio	 		 <em class="unselected-item"></em></a>
-                    <a href="one-folio.html">		One Column Portfolio	  <em class="unselected-item"></em></a>
-                    <a href="two-folio.html">		Two Column Portfolio	  <em class="unselected-item"></em></a>
-                    <a href="three-folio.html">	  Three Column Portfolio	<em class="unselected-item"></em></a>
-                    <a href="thumb-gallery.html">	Thumbnail Gallery		  <em class="unselected-item"></em></a>
-                </div>
-            </div>    
-            <div class="sidebar-decoration"></div>          
-            <div class="navigation-item">
-                <a href="contact.html" class="nav-item home-icon">Contact<em class="unselected-item"></em></a>
-            </div>  
-			
+
+						<div class="navigation-item">
+								<a href="index.html" class="nav-item home-icon">Главная<em class="unselected-item"></em></a>
+						</div>
+
+						<div class="sidebar-decoration"></div>
+
+						<div class="navigation-item">
+								<a href="#" class="nav-item features-icon submenu-deploy">Способы торговли<em class="dropdown-item"></em></a>
+								<div class="nav-submenu">
+										<a href="introduction.html">  ПАММ-счет <em class="unselected-item"></em></a>
+										<a href="typography.html">	CopyTrade	 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		RoboTrading		 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Rebate-торговля		 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Персональный аналитик		 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Самостоятельная торговля		 <em class="unselected-item"></em></a>
+								</div>
+						</div>
+
+						<div class="sidebar-decoration"></div>
+
+						<div class="navigation-item">
+								<a href="#" class="nav-item features-icon submenu-deploy">Вклады/инвестиции<em class="dropdown-item"></em></a>
+								<div class="nav-submenu">
+									<a href="introduction.html">  CFD <em class="unselected-item"></em></a>
+									<a href="typography.html">	Forex	 <em class="unselected-item"></em></a>
+									<a href="jquery.html">		CM		 <em class="unselected-item"></em></a>
+									<a href="jquery.html">		Фьючерсы на индексы		 <em class="unselected-item"></em></a>
+									<a href="jquery.html">		IPO		 <em class="unselected-item"></em></a>
+									<a href="jquery.html">		Инвестиционный портфель		 <em class="unselected-item"></em></a>
+								</div>
+						</div>
+
+						<div class="navigation-item">
+								<a href="index.html" class="nav-item home-icon">О нас<em class="unselected-item"></em></a>
+						</div>
+
+						<div class="sidebar-decoration"></div>
+
+						<div class="navigation-item">
+								<a href="index.html" class="nav-item home-icon">Как начать<em class="unselected-item"></em></a>
+						</div>
+
+						<div class="sidebar-decoration"></div>
+
+						<div class="navigation-item">
+								<a href="#" class="nav-item features-icon submenu-deploy">Трейдерам<em class="dropdown-item"></em></a>
+								<div class="nav-submenu">
+										<a href="introduction.html">  Торговые калькуляторы <em class="unselected-item"></em></a>
+										<a href="typography.html">	Ставки банковских учреждений	 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Экономический календарь		 <em class="unselected-item"></em></a>
+										<a href="introduction.html">  Торговые сигналы <em class="unselected-item"></em></a>
+										<a href="typography.html">	Ежедневный обзор рынка	 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Сервис "Bloomberg online"		 <em class="unselected-item"></em></a>
+										<a href="introduction.html">  FAQ <em class="unselected-item"></em></a>
+										<a href="typography.html">	KYC	 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Форекс ТВ 		 <em class="unselected-item"></em></a>
+										<a href="jquery.html">		Торговые платформы 		 <em class="unselected-item"></em></a>
+								</div>
+						</div>
+
             <div class="sidebar-breadcrumb">SOCIAL STUFF</div>
-            
+
             <div class="navigation-item">
                 <a href="https://www.facebook.com/enabled.labs" class="nav-item facebook-icon">Facebook<em class="link-item"></em></a>
-            </div>    
+            </div>
 
 			<div class="sidebar-decoration"></div>
-            
+
             <div class="navigation-item">
                 <a href="https://twitter.com/iEnabled" class="nav-item twitter-icon">Twitter<em class="link-item"></em></a>
-            </div>  
-            
+            </div>
+
             <div class="sidebar-decoration"></div>
-            
+
             <div class="navigation-item">
                 <a href="#" class="nav-item google-icon">Google Plus<em class="link-item"></em></a>
-            </div> 
-            
-            <div class="sidebar-breadcrumb">PAGE UPDATES</div>  
-            
+            </div>
+
+            <div class="sidebar-breadcrumb">PAGE UPDATES</div>
+
             <div class="page-update">
             	<span class="update-icon"></span>
             	<a href="#" class="update-button info-update">
@@ -131,8 +164,8 @@
                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula non nisl consequat eleifend ut in libero. Vivamus rhoncus vulputate.
                 </div>
             </div>
-            
-            <div class="sidebar-decoration"></div>  
+
+            <div class="sidebar-decoration"></div>
 
             <div class="page-update">
            		<span class="update-icon"></span>
@@ -144,9 +177,9 @@
                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula non nisl consequat eleifend ut in libero. Vivamus rhoncus vulputate.
                 </div>
             </div>
-            
-            <div class="sidebar-decoration"></div> 
-            
+
+            <div class="sidebar-decoration"></div>
+
             <div class="page-update">
             	<span class="update-icon"></span>
             	<a href="#" class="update-button warning-update">
@@ -155,11 +188,11 @@
                 </a>
                 <div class="page-update-text">
                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula non nisl consequat eleifend ut in libero. Vivamus rhoncus vulputate.
-                </div> 
+                </div>
             </div>
-            
-            <div class="sidebar-decoration"></div>  
-            
+
+            <div class="sidebar-decoration"></div>
+
             <div class="page-update">
             	<span class="update-icon"></span>
             	<a href="#" class="update-button tick-update">
@@ -170,293 +203,249 @@
                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula non nisl consequat eleifend ut in libero. Vivamus rhoncus vulputate.
                 </div>
             </div>
-            
+
             <div class="sidebar-decoration"></div>
-            
+
             <div class="sidebar-breadcrumb">COPYRIGHT 2014. ALL RIGHTS RESERVED!</div>
-         
-        </div>         
+
+        </div>
     </div>
 
 
-    <div id="content" class="page-content"> 
-    
+    <div id="content" class="page-content">
+
     	<div class="page-header">
         	<a href="#" class="deploy-sidebar"></a>
-            <img class="header-logo" src="images/misc/logo-header.png" width="71" alt="img">
+            <img class="header-logo" src="media/logo/credo_white_m_71.svg" width="71" alt="img">
             <a href="#" class="deploy-contact"></a>
         </div>
-        
+
         <div class="page-header-clear"></div>
-          
-        <div class="slider-container">
-            <div class="homepage-slider" data-snap-ignore="true">                
+
+				<div class="slider-container">
+            <div class="homepage-slider">
                 <div>
                     <div class="overlay"></div>
                     <div class="homepage-slider-caption">
-                        <h3>Swipe me!</h3>
-                        <p>Hope you enjoy our latest item!</p>
+                        <h3>+76%</h3>
+                        <p>Доходность портфеля <br> ценных металлов <br> в этом году </p>
+												<a href="#">Инвестировать</a>
                     </div>
-                    <img src="images/general-nature/1.jpg" class="responsive-image" alt="img">
+                    <img src="media/background/1st_screen_bg.jpg" class="responsive-image" alt="img">
                 </div>
-                <div>
-                    <div class="overlay"></div>
-                    <div class="homepage-slider-caption">
-                        <h3>Slider</h3>
-                        <p>Our slider is awesome!</p>
-                    </div>
-                    <img src="images/general-nature/3.jpg" class="responsive-image" alt="img">
-                </div>
-                <div>
-                    <div class="overlay"></div>
-                    <div class="homepage-slider-caption">
-                        <h3>Responsive</h3>
-                        <p>And it's fully responsive!</p>
-                    </div>
-                    <img src="images/general-nature/6.jpg" class="responsive-image" alt="img">
-                </div>
-            </div>
-            <div class="homepage-slider-controls">
-                <a href="#" class="next-home"></a>
-                <a href="#" class="prev-home"></a>
             </div>
         </div>
-        
+
         <div class="content">
-            <div class="decoration"></div>     
-            
-            <div class="container no-bottom">
-                <h3>Well, hello there!</h3>
-                <p>
-                    Stroller is a remake of one of our best selling items, much faster, easier to use, 
-                    and with multi purpose abilites it's awesome for anything!
-                </p>
-            </div>
-            
-            <div class="decoration"></div>
-            
-            <div class="container">
+
+						<div class="one-half-responsive last-column section-1 container-tabs">
+								<div class="container no-bottom center-text">
+									<h2>Виды инвестирования</h2>
+								</div>
+								<div class="container">
+										<div class="tabs">
+												<a href="#" class="tab-but tab-but-1 tab-active">Торговля роботами</a>
+												<a href="#" class="tab-but tab-but-2">ПАММ счета</a>
+												<a href="#" class="tab-but tab-but-3">Копирование сделок</a>
+												<a href="#" class="tab-but tab-but-4">IPO торговля</a>
+										</div>
+										<div class="tab-content tab-content-1">
+												<p>
+														<img src="media/tabs/robo.jpg" class="float-left" width="150" alt="img">
+														<h3>Роботрейдинг (RoboTrading)</h3>
+														Роботрейдинг (автоматическая торговля) - это способ заключения торговых сделок с применением фирменного программного обеспечения CredoTrade. Специально запрограммированные торговые системы самостоятельно производят расчет тренда, определяют его направление и силу движения цены.
+														<br>
+														<a href="#" class="center-text tab-link">Узнать подробнее</a>
+												</p>
+										</div>
+										<div class="tab-content tab-content-2">
+												<p>
+														<img src="media/tabs/pamm.jpg" class="float-left" width="150" alt="img">
+														<h3>ПАММ-счет</h3>
+														Открытие ПАММ-счета очень выгодно для инвесторов, так как последние получают реальную возможность заработать, не совершая торговых операций на своем счете и не изучая специфику торгов. Выгоден ПАММ-счет и управляющему, получающему вознаграждение за выполнение операций по управлению счетами Инвесторов.
+														<br>
+														<a href="#" class="center-text tab-link">Узнать подробнее</a>
+												</p>
+										</div>
+										<div class="tab-content tab-content-3">
+												<p>
+														<img src="media/tabs/copy.jpg" class="float-left" width="150" alt="img">
+														<h3>Копирование сделок (CopyTrade)</h3>
+														Повторение или копирование сделок - это автоматическое действие торговой платформы, которое обеспечивает совершение торговых сделок, повторяя их за рейтинговыми торговцами системы. Проще говоря, вы берете сделку одного из топ-трейдеров и переносите ее на свой персональный счет автоматически.
+														<br>
+														<a href="#" class="center-text tab-link">Узнать подробнее</a>
+												</p>
+										</div>
+										<div class="tab-content tab-content-4">
+												<p>
+														<img src="media/tabs/ipo.jpg" class="float-left" width="150" alt="img">
+														<h3>IPO</h3>
+														Торговля на IPO - это лучший способ воспользоваться возможностью получения “быстрой прибыли” для трейдера. Выход предприятия на IPO фактически означает, что компания готова работать полностью прозрачно и демонстрировать на весь мир все нюансы собственного менеджмента, стратегии и управления. При этом ее фактическими собственниками являются трейдеры, которые владеют ее акциями и получают пропорциональную прибыль от деятельности предприятия.
+														<br>
+														<a href="#" class="center-text tab-link">Узнать подробнее</a>
+												</p>
+										</div>
+								</div>
+						</div>
+
+
+
+						<div class="container center-text section-2">
+							<img class="responsive-image margin-top-30" src="media/general/platforms_home.png" alt="img">
+								<h4>Лучшая платформа для трейдеров</h4>
+								<ul class="margin-bottom-30">
+									<li><a href="#"><img src="media/general/mac.png" alt="">Meta Trader 4</a></li>
+										<li><a href="#"><img src="media/general/refresh.png" alt="">Веб-платформа</a></li>
+										<li><a href="#"><img src="media/general/apple.png" alt="">Мобильные приложения</a></li>
+								</ul>
+						</div>
+
+
+
+            <div class="container section-3">
+									<h2 class="center-text">Наши достижения</h2>
+
                 <a href="#" class="next-quote"></a>
                 <a href="#" class="prev-quote"></a>
                 <div class="quote-slider" data-snap-ignore="true">
                     <div>
                         <div class="quote-item">
-                            <img src="images/general-nature/1s.jpg" alt="img">
-                            <h4>Retina Graphics</h4>
-                            <em>high definition, everything!</em>
-                            <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
-                        	<a href="#" class="button button-red center-button">Call</a>
+                            <img src="media/general/achievement1.png" alt="img">
+                            <h4>Почти 20000 профи-трейдеров</h4>
+                            <strong>Около 20000 клиентов CredoTrade стали профессиональными игроками рынка с приличными ежедневными доходами.</strong>
                         </div>
                     </div>
                     <div>
                         <div class="quote-item">
-                            <img src="images/general-nature/2s.jpg" alt="img">
-                            <h4>UX First</h4>
-                            <em>quality increases by size!</em>
-                            <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
-                        	<a href="#" class="button button-green center-button">Text</a>
+                            <img src="media/general/achievement2.png" alt="img">
+                            <h4>Более 1,000,000 <br>ежедневных сделок</h4>
+                            <strong>Клиенты CredoTrade совершают огромное количество успешных сделок, что и делает их успешными и состоятельными трейдерами.</strong>
+                    		</div>
+											</div>
+                    <div>
+                        <div class="quote-item">
+                            <img src="media/general/achievement3.png" alt="img">
+                            <h4>Около 500 000 <br>заявок на вывод</h4>
+                            <strong>Компания CredoTrade передает все заработанные средства нашим клиентам вовремя и без задержек с учетом комиссий.</strong>
                         </div>
                     </div>
                     <div>
                         <div class="quote-item">
-                            <img src="images/general-nature/3s.jpg" alt="img">
-                            <h4>Insanely Fast</h4>
-                            <em>quality and speed together</em>
-                            <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
-                       		<a href="#" class="button button-blue center-button">Mail</a>
+                            <img src="media/general/achievement4.png" alt="img">
+                            <h4>356 трейдеров управляют <br> портфелями	объемом <br> более $100 000 каждый</h4>
+                            <strong>356 клиентов нашей компании стали владельцами солидного финансового портфеля с успешными вложениями в международный рынок.</strong>
                         </div>
                     </div>
                     <div>
                         <div class="quote-item">
-                            <img src="images/general-nature/4s.jpg" alt="img">
-                            <h4>CSS3 Designed</h4>
-                            <em>photoshop made code</em>
-                            <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
-                        	<a href="#" class="button button-dark center-button">Read More</a>
+                            <img src="media/general/achievement5.png" alt="img">
+                            <h4>72% клиентов зарабатывают <br>в первый месяц торговли</h4>
+                            <strong>Более двух третьих наших клиентов получают ожидаемую прибыль на начальном этапе совершения торговых операций при помощи личного консультанта CredoTrade</strong>
                         </div>
                     </div>
                     <div>
                         <div class="quote-item">
-                            <img src="images/general-nature/5s.jpg" alt="img">
-                            <h4>Mobile & Tablet</h4>
-                            <em>all mobile screens</em>
-                            <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
-                        	<a href="#" class="button button-orange center-button">Facebook</a>
+                            <img src="media/general/achievement6.png" alt="img">
+                            <h4>Более 150 <br>успешных IPO</h4>
+                            <strong>Компания CredoTrade имеет богатый опыт проведения IPO мировых брендов. В 2017 году количество успешных IPO перевалило за 150.</strong>
                         </div>
                     </div>
-                </div>
-            </div>  
-            
-        	<div class="decoration"></div>    
-            
-            <div class="container no-bottom">
-            	<div class="one-half-responsive">
-                    <p class="thumb-left no-bottom">
-                        <img src="images/general-nature/1s.jpg" alt="img">
-                        <strong>Responsive Template</strong>
-                        <em><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
-                    </p>
-                    <div class="thumb-clear"></div>
-                </div>
-                <div class="decoration hide-if-responsive"></div>
-                <div class="one-half-responsive last-column">        
-                    <p class="thumb-right no-bottom">
-                        <img src="images/general-nature/2s.jpg" alt="img">
-                        <strong>CSS3 Designed</strong>
-                        <em><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
-                    </p>
-                    <div class="thumb-clear"></div>
-                </div>
-                <div class="decoration"></div>
-            	<div class="one-half-responsive">
-                    <p class="thumb-left no-bottom">
-                        <img src="images/general-nature/3s.jpg" alt="img">
-                        <strong>Mobile and Tablet Built</strong>
-                        <em><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
-                    </p>
-                    <div class="thumb-clear"></div>
-                </div>
-                <div class="decoration hide-if-responsive"></div>
-                <div class="one-half-responsive last-column">        
-                    <p class="thumb-right no-bottom">
-                        <img src="images/general-nature/4s.jpg" alt="img">
-                        <strong>Fast Loading</strong>
-                        <em><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em>
-                    </p>
-                    <div class="thumb-clear"></div>
-                </div>
             </div>
-            <div class="decoration"></div>
-            
-            <div class="container no-bottom">
-            	<img class="responsive-image" src="images/general-nature/6w.jpg" alt="img">
-                <h4>Coded to the <a href="#">highest standards!</a></h4>
-                <ul>
-                	<li>Android, iOS, Windows Mobile Friendly</li>
-                    <li>Fast loading and page preloaded</li>
-                    <li>Touch swipe image slider and gallery</li>
-                    <li>Swipe enabled navigation like native apps</li>
-                </ul>
-            </div>      
-            
-            <div class="decoration"></div> 
-            
-            <div class="container">
-            	<h4>Our Customers!</h4>
-                <p>
-                	We like social networks because they keep you up to date with the latest 
-                    projects we’re working on! You can add as many items to the slider as you want
-                    and it's extremly easy to customize it to your needs! The jQuery plugin allows setting
-                    different values for width for each browser class!
-                </p>
-                <div class="customer-slider">
-                	<div><a href="#"><img src="images/customers/1.png"></a></div>
-                    <div><a href="#"><img src="images/customers/2.png"></a></div>
-                    <div><a href="#"><img src="images/customers/3.png"></a></div>
-                    <div><a href="#"><img src="images/customers/4.png"></a></div>
-                    <div><a href="#"><img src="images/customers/5.png"></a></div>
-                    <div><a href="#"><img src="images/customers/1.png"></a></div>
-                    <div><a href="#"><img src="images/customers/2.png"></a></div>
-                    <div><a href="#"><img src="images/customers/3.png"></a></div>
-                    <div><a href="#"><img src="images/customers/4.png"></a></div>
-                </div>
-            </div>     
-            
-            <div class="decoration"></div>
-			
-            <div class="container no-bottom hide-if-responsive">
-            	<h3>Connect with us! </h3>
-                <p>
-					Social networks are just awesome! The section bellow is made for mobiles and has 
-                    a separete version for tablets so you never have issues with quality on different displays! 
-                </p>
-            
-            	<a href="#" class="facebook-box social-box">
-                	<em></em>
-                    Like us on Facebook
-                </a>
-                
-                <div class="one-half">
-                    <a href="#" class="twitter-box social-box">
-                        <em></em>
-                        Twitter
-                    </a>
-               </div>
-               <div class="one-half last-column">
-                     <a href="#" class="google-box social-box">
-                        <em></em>
-                        Google +
-                    </a>              
-               </div>
-            </div>  
-            
-            <div class="container no-bottom hide-if-mobile">
-            	<h3>Connect with us! </h3>
-                <p>
-					Social networks are just awesome! The section bellow is made for mobiles and has 
-                    a separete version for tablets so you never have issues with quality on different displays! 
-                </p>
-            
-            	<div class="one-third">
-                    <a href="#" class="facebook-box social-box">
-                        <em></em>
-                        Like us on Facebook
-                    </a>
-                </div>
-                <div class="one-third">
-                    <a href="#" class="twitter-box social-box">
-                        <em></em>
-                        Follow us on Twitter
-                    </a>
-               </div>
-               <div class="one-third last-column">
-                     <a href="#" class="google-box social-box">
-                        <em></em>
-                        Circle on Google Plus
-                    </a>              
-               </div>
-            </div>
-            
-            <div class="decoration"></div>         
+					</div>
 
-        	<div class="container">
-                <div class="footer-socials">
+					<div class="one-half-responsive footer-form">
+						<div class="container">
+							<h4 class="h4-style">Зарегестрируйтесь сейчас пи*ы</h4>
+							<p class="p-style">А то Андрюха придет и выебет вас</p>
+							<div class="no-bottom">
+									<div class="contact-form no-bottom overflow-visible">
+											<div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
+													<div class="big-notification green-notification">
+															<h3 class="uppercase">Message Sent </h3>
+															<a href="#" class="close-big-notification">x</a>
+															<p>Your message has been successfuly sent. Please allow up to 48 hours for a reply! Thank you!</p>
+													</div>
+											</div>
+
+											<form action="php/contact.php" method="post" class="contactForm" id="contactForm">
+													<fieldset>
+															<div class="formValidationError" id="contactNameFieldError">
+																	<div class="static-notification-red tap-dismiss-notification">
+																			<p class="center-text uppercase">Name is required!</p>
+																	</div>
+															</div>
+															<div class="formValidationError" id="contactEmailFieldError">
+																	<div class="static-notification-red tap-dismiss-notification">
+																			<p class="center-text uppercase">Mail address required!</p>
+																	</div>
+															</div>
+															<div class="formValidationError" id="contactEmailFieldError2">
+																	<div class="static-notification-red tap-dismiss-notification">
+																			<p class="center-text uppercase">Mail address must be valid!</p>
+																	</div>
+															</div>
+															<div class="formValidationError" id="contactMessageTextareaError">
+																	<div class="static-notification-red tap-dismiss-notification">
+																			<p class="center-text uppercase">Message field is empty!</p>
+																	</div>
+															</div>
+															<div class="formFieldWrap">
+																	<label class="field-title contactNameField" for="contactNameField">Имя<span>*</span></label>
+																	<input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>
+															</div>
+															<div class="formFieldWrap">
+																	<label class="field-title contactEmailField" for="contactEmailField">Email<span>*</span></label>
+																	<input type="text" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+															</div>
+															<div class="formTextareaWrap">
+																	<label class="field-title contactPhoneField" for="contactPhoneField">Телефон<span>*</span></label>
+																	<input type="tel" name="contactPhoneField" value="" class="contactField requiredField requiredPhoneField" id="contactPhoneField"/>
+															</div>
+															<div class="formSubmitButtonErrorsWrap overflow-visible">
+																	<input type="submit" class="standart-button" id="contactSubmitButton" value="Получить доступ" data-formId="contactForm"/>
+															</div>
+													</fieldset>
+											</form>
+									</div>
+							</div>
+						</div>
+
+            </div>
+
+						<div class="one-half-responsive last-column footer-address">
+								<div class="container no-bottom p-style">
+										<h4 class="h4-style">Наши контакты:</h4>
+
+												<strong>Email:</strong> mail@doamin.com <br>
+
+												<strong>Legal entity name:</strong>Dantra Business Inc. <br>
+
+												<strong>Address:</strong>
+												Geneva Place, Waterfront Drive, <br>
+												PO Box 3469, Road Town, Tortola, <br>
+												British Virgin Islands
+								</div>
+						</div>
+
+        	<div class="container footer-copyright">
+                <div class="footer-socials center-text">
                     <a href="#" class="facebook-footer"></a>
-                    <a href="#" class="goup-footer"></a>
-                    <a href="#" class="twitter-footer"></a>
+										<a href="#" class="vkontakte-footer"></a>
+										<a href="#" class="twitter-footer"></a>
+										<a href="#" class="youtube-footer"></a>
                 </div>
-                <p class="copyright uppercase center-text no-bottom">Copyright 2013<br> All rights reserved</p>        
+                <p class="center-text no-bottom">Предупреждение: торговля финансовыми инструментами является рискованным видом деятельности и может принести не только прибыль, но и убытки. Размер возможных потерь ограничен величиной депозита.</p>
+								<div class="center-text">
+                  <a href="#">Политика конфиденциальности</a>
+                  <a href="#">Перепечатка материалов</a>
+                  <a href="#">Политика AML</a>
+                  <a href="#">Уведомление о рисках</a>
+                  <a href="#">Управление обращениями клиентов</a>
+								</div>
+					</div>
 			</div>
-		</div>  
-              
-        </div>       
-    </div>  
+  </div>
 </div>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
