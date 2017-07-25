@@ -20,6 +20,7 @@
   margin-bottom: 30px;
   font-family: "ProximaNova-Bold";
   font-size: 33px;
+  line-height: 33px;
 }
 
 .h4-style {
@@ -27,6 +28,7 @@
   margin-bottom: 10px;
   font-family: "ProximaNova-Bold";
   font-size: 26px;
+  line-height: 26px;
 }
 
 a.standart-button, input[type="submit"].standart-button{
@@ -142,6 +144,22 @@ a.tab-link {
   font-family: "ProximaNova-Bold";
   font-size: 33px;
 }
+
+/*---------------------------pamm---------------------------*/
+  .pamm-sec-1 .next-quote {
+    top: 10%
+  }
+
+  .pamm-sec-1 .prev-quote {
+    top: 10%
+  }
+
+  .pamm-sec-1 {
+    background-image: url("../media/graph.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 /*--------------------media queries-------------------------*/
 
 /*homepage slider*/
@@ -158,5 +176,5 @@ a.tab-link {
   }
   .homepage-slider-caption a {
     padding: 10px 30px;
-
+  }
 }
