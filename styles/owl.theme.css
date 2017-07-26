@@ -312,6 +312,7 @@ and (orientation : portrait) {
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 	font-size: 64px;
+	line-height: 64px;
 	text-transform: uppercase;
 	padding-left: 20px;
 	margin-bottom: 20px;
