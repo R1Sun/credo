@@ -186,6 +186,38 @@ a.tab-link {
     margin-top: 30px;
     margin-bottom: -20px;
   }
+
+  /*--------------------panalytic------------------------*/
+  .panalytic-sec-1 {
+    background-image: url("../media/panalytic/bg2.jpg");
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .panalytic-sec-2 {
+    margin-bottom: 30px;
+  }
+
+  /*-------------------------selftrading--------------------*/
+  .selftrading-sec-1 {
+    background-image: url("../media/selftrading/bg1.jpg");
+    background-position: right;
+      padding-top: 20px;
+  }
+
+.selftrading-sec-1 ul {
+  padding-left: 20px;
+}
+
+  .selftrading-sec-1 a {
+    display: inline-block;
+    color: #333333;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+  }
 /*--------------------media queries-------------------------*/
 
 /*homepage slider*/
