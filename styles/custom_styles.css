@@ -218,6 +218,103 @@ a.tab-link {
     text-decoration: underline;
     font-weight: 600;
   }
+
+  /*-------------------------cfd----------------------------*/
+  .cfd-sec-1 {
+    background-image: url("../media/graph.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  /*-------------------------cm-----------------------------*/
+  .cm-sec-1 {
+    background-image: url("../media/graph.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  /*-----------------------futuresindexes-------------------*/
+.futuresindexes-sec-1 {
+  background-image: url("../media/graph.png");
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/*--------------------------------ipo-----------------------*/
+.ipo-sec-1 {
+  background-image: url("../media/graph.png");
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.ipo-sec-1 .responsive-image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ipo-sec-1 .button-wrapper {
+  padding-bottom: 20px;
+}
+
+.ipo-sec-2 h2:not(:first-child) {
+  margin-top: 50px;
+}
+
+.ipo-sec-2  {
+  margin-bottom: 30px;
+}
+
+/*-----------------------invest portfolio--------------------*/
+.invest-portfolio-sec-1 {
+  background-image: url("../media/graph.png");
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.invest-portfolio-sec-2 {
+  text-align: center;
+}
+.invest-portfolio-sec-2 img {
+  display: inline-block;
+  float: none;
+  width: 100%;
+}
+.invest-portfolio-sec-2 p {
+  font-family:"ProximaNova-Bold";
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.invest-portfolio-sec-2 a.standart-button{
+  width: 40%;
+  margin-top: 20px;
+}
+
+.invest-portfolio-sec-3 {
+  background-image: url("../media/graph.png");
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.invest-portfolio-sec-3 img {
+  width: 30%;
+  display: inline-block;
+}
+
+.invest-portfolio-sec-3 a {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+}
+
 /*--------------------media queries-------------------------*/
 
 /*homepage slider*/
