@@ -105,6 +105,12 @@ a.tab-link {
   margin-top: 20px;
 }
 
+.button-wrapper {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /*-------------------------general--------------------------*/
 .section-2 {
   background-image: url("../media/graph.png");
@@ -166,6 +172,19 @@ a.tab-link {
     background-image: url("../media/graph.png");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  /*-------------------------rebate-------------------------*/
+  .rebate-sec-1 {
+    background-image: url("../media/graph.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+
+  .rebate-sec-1 .responsive-image {
+    margin-top: 30px;
+    margin-bottom: -20px;
   }
 /*--------------------media queries-------------------------*/
 
