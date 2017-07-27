@@ -49,6 +49,10 @@ a.standart-button, input[type="submit"].standart-button{
   text-align: center;
 }
 
+.iframe-holder iframe {
+  margin: 20px auto;
+}
+
 /*------------------------footer---------------------------*/
 
 .footer-form {
@@ -109,9 +113,9 @@ a.tab-link {
 }
 
 .button-wrapper {
-  width: 60%;
   text-align: center;
-  margin: 0 auto;
+  overflow: visible;
+  margin: 10px 0;
 }
 
 /*-------------------------general--------------------------*/
@@ -381,6 +385,17 @@ padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+.howto-sec-3 a.standart-button {
+  text-align: center;
+}
+
+/*--------------------------signals-------------------------*/
+.signals-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /*--------------------media queries-------------------------*/
 
 /*homepage slider*/
