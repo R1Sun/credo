@@ -32,7 +32,7 @@
 }
 
 a.standart-button, input[type="submit"].standart-button{
-    display: block;
+    display: inline-block;
     background: linear-gradient(to right, #b50037, #bf0000, #b50037 );
     padding: 10px 35px;
     border-radius: 35px;
@@ -45,6 +45,9 @@ a.standart-button, input[type="submit"].standart-button{
     margin: 0 auto;
 }
 
+.image-wrapper {
+  text-align: center;
+}
 
 /*------------------------footer---------------------------*/
 
@@ -315,6 +318,69 @@ a.tab-link {
   text-decoration: underline;
 }
 
+/*---------------------------about--------------------------*/
+
+.about-sec-2 {
+  background-image: url("../media/about/bg1.jpg");
+  background-position: right;
+    padding-top: 20px;
+}
+
+.about-sec-2 ul {
+padding-left: 20px;
+}
+
+.about-sec-2 a {
+  display: inline-block;
+  color: #333333;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.about-sec-3 img {
+  width: 50%;
+  display: inline-block;
+}
+
+/*----------------------------how-to-start------------------*/
+
+.howto-sec-1 {
+  background-image: url("../media/howtostart/hwtstrt-img1.png");
+  background-position: top center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  padding-top: 100px;
+}
+
+.howto-sec-1 a.standart-button {
+  margin-bottom: 30px;
+}
+
+.howto-sec-2 {
+  background-image: url("../media/howtostart/bg1.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 280px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.howto-sec-3 {
+  background-image: url("../media/graph.png");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.howto-sec-3 img {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 /*--------------------media queries-------------------------*/
 
 /*homepage slider*/
