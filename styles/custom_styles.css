@@ -119,6 +119,15 @@ a.tab-link {
 }
 
 /*-------------------------general--------------------------*/
+.section-1 {
+  margin-top: 20px;
+}
+
+.section-1 .tabs {
+  display: flex;
+  text-align: center;
+}
+
 .section-2 {
   background-image: url("../media/graph.png");
   background-size: cover;
@@ -160,11 +169,11 @@ a.tab-link {
 
 /*---------------------------pamm---------------------------*/
   .pamm-sec-1 .next-quote {
-    top: 10%
+    top: 25%
   }
 
   .pamm-sec-1 .prev-quote {
-    top: 10%
+    top: 25%
   }
 
   .pamm-sec-1 {
@@ -174,12 +183,28 @@ a.tab-link {
     padding-bottom: 30px;
   }
 
+  .pamm-sec-2 .tabs {
+    display: flex;
+    text-align: center;
+  }
+
   /*----------------------copytrade------------------------*/
   .copytrade-sec-1 {
     background-image: url("../media/graph.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 20px;
   }
+
+/*-----------------------------robotrading-------------------*/
+.robotrading-sec-1 {
+  margin-top: 20px;
+}
+
+.robotrading-sec-2 img {
+  width: 70%;
+  margin: 0 auto;
+}
 
   /*-------------------------rebate-------------------------*/
   .rebate-sec-1 {
@@ -294,12 +319,16 @@ a.tab-link {
 .invest-portfolio-sec-2 p {
   font-family:"ProximaNova-Bold";
   font-size: 16px;
-  line-height: 32px;
+  line-height: 22px;
 }
 
 .invest-portfolio-sec-2 a.standart-button{
-  width: 40%;
   margin-top: 20px;
+}
+
+.invest-portfolio-sec-2 .tabs {
+  display: flex;
+  text-align: center;
 }
 
 .invest-portfolio-sec-3 {
@@ -323,6 +352,10 @@ a.tab-link {
 }
 
 /*---------------------------about--------------------------*/
+.about-sec-1 {
+  margin-top: 20px;
+}
+
 
 .about-sec-2 {
   background-image: url("../media/about/bg1.jpg");
@@ -367,7 +400,7 @@ padding-left: 20px;
   background-image: url("../media/howtostart/bg1.jpg");
   background-size: cover;
   background-position: center center;
-  padding-top: 280px;
+  padding-top: 500px;
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -390,10 +423,53 @@ padding-left: 20px;
   text-align: center;
 }
 
+/*------------------------calculators------------------------*/
+.calc-sec-1 {
+  margin-top: 20px;
+}
+
+/*-----------------------------depositrates------------------*/
+.depositrates-sec-1 {
+  margin-top: 20px;
+}
+
 /*--------------------------signals-------------------------*/
 .signals-form {
   width: 60%;
   margin: 0 auto;
+}
+
+
+/*-------------------------------kyc--------------------------*/
+
+.kyc-sec-1  ol { counter-reset: item }
+.kyc-sec-1  li { display: block; padding-bottom: 5px;}
+.kyc-sec-1  li:before { content: counters(item, ".") " "; counter-increment: item }
+
+.kyc-sec-1 ol ol {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/*--------------------------platforms-----------------------*/
+.platforms-sec-1 img {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.platforms-sec-1 img:first-child {
+  margin-top: 30px;
+}
+
+.platforms-sec-1 .button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.platforms-sec-1 .button-wrapper a {
+  margin: 10px;
 }
 
 /*--------------------media queries-------------------------*/
@@ -401,17 +477,34 @@ padding-left: 20px;
 /*homepage slider*/
 @media screen and (max-width: 480px) {
 
+  .pamm-sec-2 .tabs a {
+    font-size: 12px;
+  }
+
   .homepage-slider-caption {
-    bottom: 20px;
+    bottom: 50px;
   }
   .homepage-slider-caption h3 {
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 48px;
+    line-height: 48px;
   }
   .homepage-slider-caption p {
     font-size: 18px;
+    line-height: 18px;
   }
   .homepage-slider-caption a {
     padding: 10px 30px;
   }
+}
+
+@media screen and (max-width: 380px) {
+  .homepage-slider-caption h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .section-1 div.tabs a, .pamm-sec-2 .tabs a, .invest-portfolio-sec-2 .tabs a{
+    font-size: 8px;
+  }
+
 }

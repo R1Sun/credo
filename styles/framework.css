@@ -1305,13 +1305,7 @@ table tr:hover td{
 	display:block;
 }
 
-.tab-active{
-	color: #555;
-	border: 1px solid #ddd;
-	border-bottom: none!important;
-	border-top: 1px solid #bf0000;
-	/*background-color:#bee7cf!important;*/
-}
+
 
 .actve-green{
 	background-color:#67c68f!important;
@@ -1328,6 +1322,16 @@ table tr:hover td{
 	padding-top:5px;
 	padding-bottom:5px;
 	border-bottom: 1px solid #ddd;
+	opacity: 0.5;
+}
+
+.tab-active{
+	color: #555;
+	border: 1px solid #ddd;
+	border-bottom: none!important;
+	border-top: 1px solid #bf0000;
+	/*background-color:#bee7cf!important;*/
+	opacity: 1;
 }
 
 .tab-content{

@@ -315,7 +315,7 @@ and (orientation : portrait) {
 	line-height: 64px;
 	/*text-transform: uppercase;*/
 	padding-left: 20px;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 .homepage-slider-caption p{
